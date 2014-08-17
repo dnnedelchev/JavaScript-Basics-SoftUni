@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+}
+form {
+    width: 370px;
+}
+input {
+    display: block;
+}
+input[type='text'] {
+    width: 370px;
+    background: #234465;
+    color: #D6932D;
+    padding: 7px 15px;
+}
+input[type='button'] {
+    width: 120px;
+    margin: 20px auto;
+    padding: 10px 0;
+    font-size: 20px;
+    background: white;
+    color: #383838;
+    border: 1px solid #383838;
+}
+input[type='button']:hover {
+    background: #234465;
+    color: #D6932D;
+}
